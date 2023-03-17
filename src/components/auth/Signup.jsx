@@ -26,8 +26,9 @@ const Signup = () => {
     <div className="sign-up-container">
       <form onSubmit={handleSignUp}>
       <h1>Register</h1>
-      <input type={"email"} placeholder="Enter your email.." value={email} onChange={(e)=>setEmail(e.target.value)} />
-      <input type={"password"} placeholder="Enter your password.." value={password} onChange={(e)=>setPassword(e.target.value)}/>
+      <input type={"email"} placeholder="Enter your email.." value={email} onChange={(e)=>setEmail(e.target.value)} /><br/>
+      <input type={"password"} placeholder="Enter your password.." value={password} onChange={(e)=>setPassword(e.target.value)}/><br/>
+      <br/>
       <button type="submit">Register</button>
       </form>
     </div>
